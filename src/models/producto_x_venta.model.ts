@@ -9,10 +9,6 @@ export class ArticuloVenta extends Model {
   public precio_unitario!: number;
 }
 
-
-
-
-
 ArticuloVenta.init(
    {
     id_axv: {
